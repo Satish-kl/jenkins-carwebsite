@@ -11,7 +11,7 @@ pipeline {
             steps {
                 echo 'Pulling latest code from GitHub...'
                 git branch: 'main',
-                url: 'https://github.com/Satish-kl/Jenkins-Car-website.git'
+                    url: 'https://github.com/Satish-kl/jenkins-carwebsite.git'
             }
         }
 
